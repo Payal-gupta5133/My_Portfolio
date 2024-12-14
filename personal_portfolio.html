@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(120deg, #f0f8ff, #e6e6fa);
+            color: 80EAFF;
+        }
+        header {
+            background: #4c4cfc;
+            color: #fff;
+            padding: 2rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+	  
+            justify-content: center;
+            gap: 2rem;
+            margin: 1rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #4c4cfc;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #80EAFF;
+        }
+        .section {
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        .section:nth-child(odd) {
+            background: #c1f6ea;
+        }
+        .section:nth-child(even) {
+            background: #80EAFF;
+        }
+        footer {
+            background: #4c4cfc;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 1rem auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .columns {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .column {
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 1.5rem;
+            max-width: 300px;
+            width: 100%;
+        }
+        .column h3 {
+            margin-top: 0;
+            color: #4c4cfc;
+        }
+        button {
+            background: #4c4cfc;
+            color: #fff;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background: #ff6347;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#internships">Internships</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <img src="C:\Users\payal gupta\Downloads\portfolio_pic.jpg" class="profile-img">
+<p>Final-year IT student with a strong passion for full-stack development and a solid foundation in modern web technologies. Proficient in creating dynamic and responsive user interfaces using HTML, CSS, JavaScript, and React, along with server-side development using Node.js. Experienced in working with databases like MySQL and MongoDB. Skill in github, problem-solving, and implementing user-centric designs. Actively engaged in academic projects and personal development initiatives to enhance technical skills. Eager to contribute to innovative software development projects and grow as a professional in the tech industry.<\p>
+               <a href=""C:\Users\payal gupta\Downloads\1000049348 (1).pdf"" download><button>Download Resume</button></a>
+    </section>
+
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>Bachelor of Technology in Information Technology</h3>
+                <p>Swami Keshwanand Institute of Technology, Jaipur</p>
+                <p>2020 - 2024</p>
+            </div>
+            <div class="column">
+                <h3>Class 12th</h3>
+                <p>Pragya Science Academy</p>
+                <p>2019</p>
+            </div>
+            <div class="column">
+                <h3>Class 10th</h3>
+                <p>Gayatri Public School</p>
+                <p>2017</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="internships" class="section">
+        <h2>Internships</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>Full stack Development </h3>
+                <p>Napino Digital Solutions</p>
+                <p>July2024 - Oct2024</p>
+                <p>Worked on creating responsive web pages using React.js and working on database by using MongoDB and MYSql.</p>
+            </div>
+            <div class="column">
+                <h3>Web Developer</h3>
+                <p>Tech Vector Volume</p>
+                <p>Aug 2023 - Oct 2023</p>
+                <p>Developed e-commerce websites and integrated payment gateways using HTML, CSS, and PHP.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="columns">
+            <div class="column">
+                <h3>My Portfolio</h3>
+                <p>A responsive portfolio website showcasing my skills and projects.</p>
+		<a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a>
+            </div>
+            <div class="column">
+                <h3>Project 2</h3>
+                <p>An e-commerce platform for small businesses, built using React and Firebase.</p>
+			<a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a>
+            </div>
+            <div class="column">
+                <h3>Project 3</h3>
+                <p>A blog application with markdown support and user authentication.</p>
+		<a href="https://github.com/yourusername/portfolio" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:pgupta5133@gmail.com">pgupta5133@gmail.com</a></p>
+        <p>Phone: 9351191916</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Payal Gupta. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
